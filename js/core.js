@@ -1,5 +1,7 @@
-// 初始化
+//主体js文件
+// 整体初始化
 function init(){
+  //cookie相关需在服务器上运行时生效
   topNoticeInit();//顶部栏初始化
   sliderInit();//轮播图初始化
   attbtnInit();//关注按钮初始化
